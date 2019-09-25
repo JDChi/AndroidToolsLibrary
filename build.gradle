@@ -5,7 +5,8 @@ apply from: rootProject.file('android_tool_ext.gradle')
 buildscript {
     ext.kotlin_version = '1.3.50'
     repositories {
-        jcenter()
+        maven{ url'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
+        maven{ url'http://maven.aliyun.com/nexus/content/groups/public/' }
         google()
     }
     dependencies {
@@ -19,7 +20,8 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
+        maven{ url'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
+        maven{ url'http://maven.aliyun.com/nexus/content/groups/public/' }
         google()
     }
 }
