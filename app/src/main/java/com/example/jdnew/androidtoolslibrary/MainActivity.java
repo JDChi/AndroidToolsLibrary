@@ -1,13 +1,30 @@
 package com.example.jdnew.androidtoolslibrary;
 
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.jdnew.library.hotfix.andfix.AndFixManager;
+
+import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
     }
+
+
+
 }
