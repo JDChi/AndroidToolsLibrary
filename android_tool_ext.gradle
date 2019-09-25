@@ -1,0 +1,27 @@
+ext {
+    android = [compileSdkVersion: 29,
+               buildToolsVersion: "29.0.2",
+               minSdkVersion    : 19,
+               targetSdkVersion : 29,
+               applicationId    : 'com.imooc.imooc_voice',
+               versionCode      : 1,
+               versionName      : '1.1',
+               multiDexEnabled  : true,
+    ]
+
+    depsVersion = [appcompact      : '1.0.0',
+                   constraintlayout: '1.1.3',
+                   junit           : '4.12',
+                   runner          : '1.1.0',
+                   espresso_core : '3.1.0',
+
+    ]
+
+    depsLibs = [appcompact      : "androidx.appcompat:appcompat:${depsVersion.appcompact}",
+                constraintlayout: "androidx.constraintlayout:constraintlayout:${depsVersion.constraintlayout}",
+                junit           : "junit:junit:${depsVersion.junit}",
+                runner          : "androidx.test:runner:${depsVersion.runner}",
+                espresso_core : "androidx.test.espresso:espresso-core:${depsVersion.espresso_core}"]
+
+}
+
