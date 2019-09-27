@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion rootProject.android.compileSdkVersion
-    buildToolsVersion "29.0.2"
+    buildToolsVersion rootProject.android.buildToolsVersion
 
 
     defaultConfig {
