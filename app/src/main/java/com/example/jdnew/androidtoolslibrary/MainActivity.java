@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.jdnew.library.hotfix.andfix.AndFixManager;
+
 
 import java.io.File;
 

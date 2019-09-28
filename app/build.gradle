@@ -27,4 +27,8 @@ dependencies {
     testImplementation rootProject.depsLibs.junit
     androidTestImplementation rootProject.depsLibs.runner
     androidTestImplementation rootProject.depsLibs.espresso_core
+    implementation project(path: ':widget')
+    implementation project(path: ':util')
+    implementation project(path: ':command')
+    implementation project(path: ':library')
 }
